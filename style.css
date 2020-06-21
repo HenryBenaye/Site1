@@ -2,6 +2,7 @@ body {
     font-family: 'IBM Plex Mono', monospace;
     margin: 0px;
     color:  white;
+    width: 95%;
 }
 
 
@@ -47,10 +48,12 @@ ul {
 a {
     text-decoration: none;
     color: white;
+    opacity: 0.6;
 }
 
 a:hover {
-    color: #e0e0eb;
+    color: white;
+    opacity: 1;
 }
 
 main {
@@ -64,4 +67,42 @@ h1 {
     color: white;
     font-size: 70px;
     
+}
+
+img {
+    width: 700px;
+    height: 800px;
+    margin: 20px;
+    border-radius: 25px;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+  } 
+
+  
+
+  ::-webkit-scrollbar-thumb  {
+    background: linear-gradient(268deg, #0076fd, #f50404);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 8s ease infinite;
+    -moz-animation: AnimationName 8s ease infinite;
+    animation: AnimationName 8s ease infinite;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
 }
