@@ -1,5 +1,6 @@
 body {
     font-family: 'IBM Plex Mono', monospace;
+    margin: 0px;
 }
 
 
@@ -31,4 +32,35 @@ body {
 header {
     width: 100%;
     color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    font-size: large;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #e0e0eb;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+h1 {
+    color: white;
+    font-size: 70px;
+    
 }
